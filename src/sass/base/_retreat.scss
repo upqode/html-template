@@ -1,0 +1,204 @@
+/* ------------------------------------------- */
+/* PADDINGS AND MARGINS */
+/* ------------------------------------------- */
+
+$count: 40;
+$step: 5;
+
+@for $i from 0 through $count {
+  .margin-#{$step*$i}t {
+    margin-top: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .margin-#{$step*$i}b {
+    margin-bottom: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .padding-#{$step*$i}t {
+    padding-top: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .padding-#{$step*$i}b {
+    padding-bottom: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .margin-#{$step*$i}l {
+    margin-left: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .margin-#{$step*$i}r {
+    margin-right: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .padding-lg-#{$step*$i}l {
+    padding-left: 0px + $step * $i;
+  }
+}
+
+@for $i from 0 through $count {
+  .padding-#{$step*$i}r {
+    padding-right: 0px + $step * $i;
+  }
+}
+
+@include lg-max {
+  @for $i from 0 through $count {
+    .margin-lg-#{$step*$i}t {
+      margin-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-lg-#{$step*$i}b {
+      margin-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-lg-#{$step*$i}t {
+      padding-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-lg-#{$step*$i}b {
+      padding-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-lg-#{$step*$i}l {
+      margin-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-lg-#{$step*$i}r {
+      margin-right: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-lg-#{$step*$i}l {
+      padding-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-lg-#{$step*$i}r {
+      padding-right: 0px + $step * $i;
+    }
+  }
+}
+
+@include md-max {
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}t {
+      margin-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}b {
+      margin-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}t {
+      padding-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}b {
+      padding-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}l {
+      margin-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-sm-#{$step*$i}r {
+      margin-right: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}l {
+      padding-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-sm-#{$step*$i}r {
+      padding-right: 0px + $step * $i;
+    }
+  }
+}
+
+@include sm-max {
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}t {
+      margin-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}b {
+      margin-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}t {
+      padding-top: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}b {
+      padding-bottom: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}l {
+      margin-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .margin-xs-#{$step*$i}r {
+      margin-right: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}l {
+      padding-left: 0px + $step * $i;
+    }
+  }
+
+  @for $i from 0 through $count {
+    .padding-xs-#{$step*$i}r {
+      padding-right: 0px + $step * $i;
+    }
+  }
+}
